@@ -3,8 +3,9 @@ box-sizing: border-box;
 }
 
 .contactBody{
-    text-align: center;
+text-align: center;
 }
+
 /* Add styles to the form container */
 .container {
 margin: 50px;

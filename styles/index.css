@@ -1,6 +1,7 @@
-
 /*Front Page Container*/
 .frontBody{
+    background-color: #f9f9f929;
+    border-radius: 15px;
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
