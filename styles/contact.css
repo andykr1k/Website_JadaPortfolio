@@ -5,29 +5,11 @@ box-sizing: border-box;
 .contactBody{
     text-align: center;
 }
-
-.bg-img {
-/* The image used */
-background-image: url("assets/img_nature.jpg");
-
-/* Control the height of the image */
-min-height: 380px;
-
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-}
-
 /* Add styles to the form container */
 .container {
-position: absolute;
-right: 0;
-margin: 20px;
-max-width: 300px;
+margin: 50px;
 padding: 16px;
-background-color: white;
+background-color: rgba(255, 255, 255, 0.363);
 }
 
 /* Full-width input fields */
