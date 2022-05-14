@@ -3,14 +3,6 @@
     padding: 0;
 }
 
-.nav_links {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    height: 100px;
-    background-color: #04AA6D;
-}
-
 .front_img {
     border-radius: 50%;
     float: right;
