@@ -2,6 +2,10 @@
 box-sizing: border-box;
 }
 
+.contactBody{
+    text-align: center;
+}
+
 .bg-img {
 /* The image used */
 background-image: url("assets/img_nature.jpg");
