@@ -18,11 +18,11 @@ width: 100%;
 padding: 15px;
 margin: 5px 0 22px 0;
 border: none;
-background: #f1f1f1;
+background: rgba(255, 255, 255, 0.464);
 }
 
 input[type=text]:focus, input[type=number]:focus {
-background-color: #ddd;
+background-color: rgba(255, 255, 255, 0.464);
 outline: none;
 }
 
