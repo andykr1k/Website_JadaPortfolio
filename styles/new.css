@@ -42,7 +42,7 @@
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
-  /* Add a red background color to navbar links on hover */
+  /* Add a background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: white;
     border-radius: 15px;
@@ -77,4 +77,8 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .image fit{
+    width: 100%;
+    height: auto;
   }
