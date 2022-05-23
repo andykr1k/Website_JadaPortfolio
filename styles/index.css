@@ -1,3 +1,8 @@
+img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
 /*Front Page Container*/
 .frontBody{
     background-color: #f9f9f929;
