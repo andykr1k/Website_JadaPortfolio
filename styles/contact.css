@@ -27,6 +27,10 @@ background-color: rgba(255, 255, 255, 0.464);
 outline: none;
 }
 
+.contactBody input:focus{
+  background: lightgrey;
+}
+
 /* Set a style for the submit button */
 .btn {
 background-color: #04AA6D;
