@@ -48,7 +48,7 @@ body {
 
 .container .card .slide.slide2 {
   position: relative;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   padding: 20px;
