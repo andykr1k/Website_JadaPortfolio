@@ -8,13 +8,14 @@ img {
 body {
   margin: 0;
   padding: 0;
-  display: grid;
-  align-items: center;
-  justify-content: center;  
   font-family: sans-serif;
   background-color: #f1f1f1; 
 }
-
+.container{
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+}
 .container .card .icon {
   position: absolute;
   top: 0;
