@@ -10,76 +10,24 @@
     </head>
 
     <body>
-        <div id="container">
-            <div id="main">
-                <div id="leftside">
-                    <ul id="nav">
-                        <li class="current"><a href="#home">Home</a></li>
-                        <li><a href="#story">The Story</a></li>
-                        <li><a href="#films">The Films</a></li>
-                        <li><a href="#castcrew">Cast &amp; Crew</a></li>
-                        <li><a href="#media">Media</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+        <div class="container">
+            <div class="card">
+                <div class="slide slide1">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        </div>
+                    </div>
                 </div>
-                <div id="rightside">
-                    <section id="home">
-                        <!-- home content -->
-                    </section>
-                 
-                    <section id="story">
-                        <!-- story content -->
-                    </section>
-                 
-                    <section id="films">
-                        <!-- films content -->
-                    </section>
-                 
-                    <section id="castcrew">
-                        <!-- cast and crew content -->
-                    </section>
-                 
-                    <section id="media">
-                        <!-- media content -->
-                    </section>
-                 
-                    <section id="contact">
-                        <!-- contact content -->
-                    </section>
+    
+                <div class="slide slide2">
+                    <div class="content">
+                        <h3>
+                            Hello there!
+                        </h3>
+                        <p>Trust yourself and keep going.</p>
+                    </div>
                 </div>
-                <footer>
-                
-                </footer>
             </div>
-        </div>
     </body>
-
-
-<script>
-    $('#nav').onePageNav({         // #nav must be the id of your navigation
-        currentClass: 'current',
-        changeHash: false,
-        scrollSpeed: 750,          // change this parameter to adjust scrolling speed
-        scrollOffset: 30
-    });
-    function handleDisplay()
-    {
-        // Show or hide footer based on window size
-        if ($(window).width() < 1263)
-        {
-            $('footer').fadeOut();
-        } else {
-            $('footer').fadeIn();
-        }
-    }
-     
-    // Event handlers to call the handleDisplay() function
-    $(window).resize(function() {
-        handleDisplay();
-    });
-     
-    $(window).load(function() {
-        handleDisplay();
-    });
-</script>
 </html>
