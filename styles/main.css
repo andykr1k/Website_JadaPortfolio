@@ -18,7 +18,7 @@ body {
   background: #2c73df;
 }
 
-.container .card .icon .fa {
+.container .card .icon a {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -64,25 +64,15 @@ body {
 }
 
 .container .card .slide.slide2::after{
-
   content: "";
-
   position: absolute;
-
   width: 30px;
-
   height: 4px;
-
   bottom: 15px;
-
   left: 50%;
-
   left: 50%;
-
   transform: translateX(-50%);
-
   background: #2c73df;
-
 }
 
 .container .card .slide.slide2 .content p {
