@@ -5,7 +5,7 @@ img {
 body {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;  
   font-family: sans-serif;
@@ -48,7 +48,7 @@ body {
 
 .container .card .slide.slide2 {
   position: relative;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
