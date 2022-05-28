@@ -49,7 +49,7 @@ img {
   
   /* Add a background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: grey;
     border-radius: 15px;
   }
   
