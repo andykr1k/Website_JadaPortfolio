@@ -19,7 +19,7 @@
                     <li><a href="#contact">Contact</a></li>
                   </ul>
                 </nav>
-            <section id="home">
+            <section id="home"  class="frontBody">
                 <section class="frontBody">
                     <div class="front_text">
                         <h1> Jada Ganim </h1>
@@ -32,7 +32,7 @@
                     </div>
                 </section>
             </section>
-            <section id="new">
+            <section id="new" class="newBody">
                 <div class="header_text">
                     <h1> New Releases </h1>
                 </div>
@@ -48,16 +48,15 @@
                     </div>
                 </div>
             </section>
-            <section id="movie">
+            <section id="movie"  class="movieBody">
                 <div class="header_text">
                     <h1> Movie Spotlight </h1>
                 </div>
     
                 <!-- Boxes -->
                 <div class="thumbnails">
-                    <p><code>wrapAround: true</code></p>
 
-                    <div class="box" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="box">
                         <iframe src="https://www.youtube.com/embed/ET6b-BZxuJ4" class="imagefit"></iframe>
                         <div class="inner">
                             <h3>Addicted</h3>
@@ -65,7 +64,7 @@
                         </div>
                     </div>
     
-                    <div class="box" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="box">
                         <iframe src="https://www.youtube.com/embed/l10-ocIJxzw" class="imagefit"></iframe>
                         <div class="inner">
                             <h3>Best Part</h3>
@@ -81,7 +80,7 @@
                         </div>
                     </div>
     
-                    <div class="box" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="box">
                         <iframe src="https://www.youtube.com/embed/wolixDx71ws" class="imagefit"></iframe>
                         <div class="inner">
                             <h3>Sweet Dreams of a California Summer</h3>
@@ -89,7 +88,7 @@
                         </div>
                     </div>
     
-                    <div class="box" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="box">
                         <iframe src="https://www.youtube.com/embed/KE_BcgLUi58" class="imagefit"></iframe>
                         <div class="inner">
                             <h3>The Girl Who Cried Wolf</h3>
@@ -97,16 +96,19 @@
                         </div>
                     </div>
     
-                    <div class="box" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="box">
                         <iframe src="https://www.youtube.com/embed/LSjTJlUZkLY" class="imagefit"></iframe>
                         <div class="inner">
                             <h3>The House on the Hill</h3>
                             <p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
                         </div>
                     </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </section>
-            <section id="ad">
+            <section id="ad"  class="adBody">
                 <div class="header_text">
                     <h1> Ad Spotlight </h1>
                 </div>
@@ -138,9 +140,12 @@
                             <h3>Black & Blue Tattoo</h3>
                         </div>
                     </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </section>
-            <section id="contact">
+            <section id="contact"  class="contactBody">
                 <section class="contactBody">
                     <div class="bg-img">
                         <form method="post" action="/index.html" netlify class="container">
