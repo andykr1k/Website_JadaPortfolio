@@ -74,11 +74,6 @@ section h1 {
   font-size: 4rem;
 }
 
-img {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-}
 /*Front Page Container*/
 .frontBody{
     background-color: #f9f9f929;
@@ -97,3 +92,56 @@ img {
         padding: 1rem 1rem;
         vertical-align: middle;
     }
+
+    .front_img img{
+      max-width: 600px;
+        width: 100%;
+        height: auto;
+    }
+
+.newBody{
+  text-align: center;
+}
+.movieBody{
+  text-align: center;
+}
+.adBody{
+  text-align: center;
+}
+  /*Container for the movie details*/
+.box{
+  background-color: #f9f9f929;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.contactBody{
+  text-align: center;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+  margin: 50px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.363);
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.464);
+  }
+  
+  input[type=text]:focus, input[type=number]:focus {
+  background-color: rgba(255, 255, 255, 0.464);
+  outline: none;
+  }
+  
+  .contactBody input:focus{
+    background: lightgrey;
+  }
+  
