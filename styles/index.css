@@ -77,6 +77,7 @@ section h1 {
 /*Front Page Container*/
 .frontBody{
     text-align: center;
+    padding: 2rem 2rem;
 }
     .front_text{
         display: inline-block;
