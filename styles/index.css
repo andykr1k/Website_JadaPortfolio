@@ -56,6 +56,12 @@
         border-radius: 100%;
         border: 1px solid black;
     }
+    .logos img{
+        max-width: 30px;
+        padding: 0.5rem;
+        width: 100%;
+        height: auto;
+    }
     
     /* New Movie Body Styling*/
     .newBody{
@@ -94,7 +100,7 @@
     }
     .adBody img {
         width: 100%;
-        max-width: 400px;
+        max-width: 600px;
         height: auto;
     }
     .adBody button img{
