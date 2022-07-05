@@ -141,3 +141,7 @@ border-radius: 30%;
 .btn:hover {
 opacity: 1;
 }
+.FormElements input {
+    width: 80%;
+    opacity: 0.5;
+}
