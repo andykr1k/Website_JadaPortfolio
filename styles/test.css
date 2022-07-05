@@ -2,7 +2,6 @@
 margin: 0;
 padding: 0;
 }
-
 body {
 font-family: Arial, Helvetica, sans-serif;
 background: #333;
@@ -10,7 +9,6 @@ height: 100vh;
 line-height: 1.6;
 overflow: hidden;
 }
-
 .container {
 width: 100%;
 height: 100%;
@@ -19,11 +17,9 @@ overflow-y: scroll;
 scroll-behavior: smooth;
 scroll-snap-type: y mandatory;
 }
-
 .lead {
 font-size: 1.5rem;
 }
-
 section {
 display: flex;
 flex-direction: column;
@@ -34,7 +30,6 @@ height: 100vh;
 /* Scroll Snap */
 scroll-snap-align: center;
 }
-
 h1 {
 font-size: 2rem;
 }
@@ -121,19 +116,15 @@ text-align: center;
 /* Contact Body Styling*/
 .contactBody{
 text-align: center;
-width: 100%;
-height: auto;
 }
 input[type=text], input[type=number] {
-width: 100%;
 padding: 15px;
 margin: 5px 0 22px 0;
 border: none;
-background: rgba(255, 255, 255, 0.464);
 }
 input[type=text]:focus, input[type=number]:focus {
-background-color: rgba(255, 255, 255, 0.464);
-outline: none;
+    opacity: 0.2;
+    outline: none;
 }
 .contactBody input:focus{
     background: grey;
@@ -144,8 +135,8 @@ color: white;
 padding: 16px 20px;
 border: none;
 cursor: pointer;
-width: 100%;
 opacity: 0.9;
+border-radius: 30%;
 }
 .btn:hover {
 opacity: 1;
