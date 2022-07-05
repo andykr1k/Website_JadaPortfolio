@@ -1,0 +1,152 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: #333;
+height: 100vh;
+line-height: 1.6;
+overflow: hidden;
+}
+
+.container {
+width: 100%;
+height: 100%;
+/* CSS Smooth Scroll */
+overflow-y: scroll; 
+scroll-behavior: smooth;
+scroll-snap-type: y mandatory;
+}
+
+.lead {
+font-size: 1.5rem;
+}
+
+section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 100%;
+height: 100vh;
+/* Scroll Snap */
+scroll-snap-align: center;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+/*Front Page Container*/
+.frontDiv {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.front_text{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.front_img{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.front_img img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+/* New Movie Body Styling*/
+.newBody{
+text-align: center;
+}
+.box {
+    background-color: #f9f9f929;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Movie Body Styling*/
+.movieBody{
+text-align: center;
+}
+.movieBody button img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+.movieBody button {
+    background-color: transparent;
+    border: none;
+}
+.boxmov {
+    background-color: #f9f9f929;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Ad Body Styling*/
+.adBody {
+    text-align: center;
+}
+.adBody img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.adBody button img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+.adBody button {
+    background-color: transparent;
+    border: none;
+}
+.boximg {
+    background-color: #f9f9f929;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Contact Body Styling*/
+.contactBody{
+text-align: center;
+width: 100%;
+height: auto;
+}
+input[type=text], input[type=number] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: rgba(255, 255, 255, 0.464);
+}
+input[type=text]:focus, input[type=number]:focus {
+background-color: rgba(255, 255, 255, 0.464);
+outline: none;
+}
+.contactBody input:focus{
+    background: grey;
+}
+.btn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+.btn:hover {
+opacity: 1;
+}

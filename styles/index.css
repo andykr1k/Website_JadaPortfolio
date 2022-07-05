@@ -1,130 +1,129 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
+  }
+  
+  body {
   font-family: Arial, Helvetica, sans-serif;
   background: #333;
-  color: #fff;
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
-}
-
-.container {
+  }
+  
+  .container {
   width: 100%;
   height: 100%;
   /* CSS Smooth Scroll */
   overflow-y: scroll; 
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
-}
-
-.lead {
+  }
+  
+  .lead {
   font-size: 1.5rem;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  display: flex;
-  width: 100%;
-  height: 60px;
-  background: rgba(0,0,0,0.4);
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-  justify-content: center;
-}
-
-.navbar ul li {
-  margin: 0 1rem;
-  padding: 1rem;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #f4f4f4;
-}
-
-.navbar ul li a:hover {
-  color: skyblue;
-}
-
-section {
+  }
+  
+  section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
   height: 100vh;
- 
   /* Scroll Snap */
   scroll-snap-align: center;
-}
-
-section h1 {
-  font-size: 4rem;
-}
-
-/*Front Page Container*/
-.frontDiv {
-    text-align: center;
-    padding: 2rem 2rem;
-}
-    .front_text{
-        display: inline-block;
-        padding: 1rem 1rem;
-        vertical-align: middle;
-    }
-    .front_img{
-        display: inline-block;
-        padding: 1rem 1rem;
-        vertical-align: middle;
-    }
-
-    .front_img img{
-      max-width: 600px;
-        width: 100%;
-        height: auto;
-    }
-
-.newBody{
-  text-align: center;
-}
-.movieBody{
-  text-align: center;
-}
-.adBody{
-  text-align: center;
-}
-  /*Container for the movie details*/
-.box{
-  background-color: #f9f9f929;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 20px;
-}
-
-.contactBody{
-  text-align: center;
   }
   
-  /* Add styles to the form container */
-  .contactContainer {
-  margin: 50px;
-  padding: 16px;
-  background-color: rgba(255, 255, 255, 0.363);
+  h1 {
+  font-size: 2rem;
   }
   
-  /* Full-width input fields */
+  /*Front Page Container*/
+  .frontDiv {
+      text-align: center;
+      padding: 2rem 2rem;
+  }
+  .front_text{
+      display: inline-block;
+      padding: 1rem 1rem;
+      vertical-align: middle;
+  }
+  .front_img{
+      display: inline-block;
+      padding: 1rem 1rem;
+      vertical-align: middle;
+  }
+  .front_img img{
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 100%;
+      border: 1px solid black;
+  }
+  
+  /* New Movie Body Styling*/
+  .newBody{
+  text-align: center;
+  }
+  .box {
+      background-color: #f9f9f929;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px;
+  }
+  
+  /* Movie Body Styling*/
+  .movieBody{
+  text-align: center;
+  }
+  .movieBody button img{
+      width: 100%;
+      max-width: 50px;
+      height: auto;
+  }
+  .movieBody button {
+      background-color: transparent;
+      border: none;
+  }
+  .boxmov {
+      background-color: #f9f9f929;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px;
+  }
+  
+  /* Ad Body Styling*/
+  .adBody {
+      text-align: center;
+  }
+  .adBody img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+  }
+  .adBody button img{
+      width: 100%;
+      max-width: 50px;
+      height: auto;
+  }
+  .adBody button {
+      background-color: transparent;
+      border: none;
+  }
+  .boximg {
+      background-color: #f9f9f929;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px;
+  }
+  
+  /* Contact Body Styling*/
+  .contactBody{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  }
   input[type=text], input[type=number] {
   width: 100%;
   padding: 15px;
@@ -132,127 +131,13 @@ section h1 {
   border: none;
   background: rgba(255, 255, 255, 0.464);
   }
-  
   input[type=text]:focus, input[type=number]:focus {
   background-color: rgba(255, 255, 255, 0.464);
   outline: none;
   }
-  
   .contactBody input:focus{
-    background: lightgrey;
+      background: grey;
   }
-
-.movieBody {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.box{
-  display: none
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-/* Contact Body Styling*/
-
-.contactBody{
-  text-align: center;
-  }
-  
-  
-  /* Full-width input fields */
-  input[type=text], input[type=number] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: rgba(255, 255, 255, 0.464);
-  }
-  
-  input[type=text]:focus, input[type=number]:focus {
-  background-color: rgba(255, 255, 255, 0.464);
-  outline: none;
-  }
-  
-  .contactBody input:focus{
-    background: lightgrey;
-  }
-  
-  /* Set a style for the submit button */
   .btn {
   background-color: #04AA6D;
   color: white;
@@ -262,7 +147,7 @@ section h1 {
   width: 100%;
   opacity: 0.9;
   }
-  
   .btn:hover {
   opacity: 1;
   }
+  
