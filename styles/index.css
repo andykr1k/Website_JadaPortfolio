@@ -73,6 +73,10 @@
         padding: 0.25rem;
         width: 100%;
         height: auto;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
     /* New Movie Body Styling*/
     .newBody{
@@ -140,11 +144,8 @@
     border: none;
     }
     input[type=text]:focus, input[type=number]:focus {
-        opacity: 0.2;
         outline: none;
-    }
-    .contactBody input:focus{
-        background: grey;
+        border: none;
     }
     .btn {
     background-color: #04AA6D;
