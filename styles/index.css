@@ -65,6 +65,9 @@
         background-color: #4F5165;
         transform: scaleX(-1);
     }
+    .logos{
+        vertical-align: middle;
+    }
     .logos img{
         max-width: 30px;
         padding: 0.25rem;
@@ -128,8 +131,8 @@
     }
     
     /* Contact Body Styling*/
-    .contactBody{
-    text-align: center;
+    .contactBody h1 {
+    padding: 20px;
     }
     input[type=text], input[type=number] {
     padding: 15px;
