@@ -160,10 +160,13 @@ input[type=text], input[type=number] {
 padding: 15px;
 margin: 5px 0 22px 0;
 border: none;
+color: antiquewhite;
+
 }
 input[type=text]:focus, input[type=number]:focus {
     outline: none;
     border: none;
+    color: antiquewhite;
 }
 .btn {
 background-color: #04AA6D;
@@ -181,4 +184,6 @@ opacity: 1;
     width: 60%;
     opacity: 0.9;
     border-radius: 20px;
+    color: antiquewhite;
+    background-color: #4F5165;
 }
