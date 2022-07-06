@@ -160,17 +160,17 @@ input[type=text], input[type=number] {
 padding: 15px;
 margin: 5px 0 22px 0;
 border: none;
-color: antiquewhite;
+color: #FAFFD8;
 
 }
 input[type=text]:focus, input[type=number]:focus {
     outline: none;
     border: none;
-    color: antiquewhite;
+    color: #FAFFD8;
 }
 .btn {
 background-color: #04AA6D;
-color: white;
+color: #FAFFD8;
 padding: 16px 20px;
 border: none;
 cursor: pointer;
@@ -184,6 +184,9 @@ opacity: 1;
     width: 60%;
     opacity: 0.9;
     border-radius: 20px;
-    color: antiquewhite;
+    color: #FAFFD8;
     background-color: #4F5165;
+}
+::placeholder{
+    color: #FAFFD8;
 }
