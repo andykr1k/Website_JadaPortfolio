@@ -33,7 +33,10 @@
     h1 {
     font-size: 2rem;
     }
-    
+    iframe {
+    width: 100%;
+    max-width: 800px;
+    }
     /*Front Page Container*/
     .frontDiv {
         text-align: center;
@@ -58,11 +61,10 @@
     }
     .logos img{
         max-width: 30px;
-        padding: 0.5rem;
+        padding: 0.25rem;
         width: 100%;
         height: auto;
     }
-    
     /* New Movie Body Styling*/
     .newBody{
     text-align: center;
@@ -80,7 +82,7 @@
     }
     .movieBody button img{
         width: 100%;
-        max-width: 50px;
+        max-width: 30px;
         height: auto;
     }
     .movieBody button {
@@ -105,7 +107,7 @@
     }
     .adBody button img{
         width: 100%;
-        max-width: 50px;
+        max-width: 30px;
         height: auto;
     }
     .adBody button {
@@ -142,13 +144,14 @@
     border: none;
     cursor: pointer;
     opacity: 0.9;
-    border-radius: 30%;
+    border-radius: 30px;
     }
     .btn:hover {
     opacity: 1;
     }
     .FormElements input {
         width: 80%;
-        opacity: 0.5;
+        opacity: 0.9;
+        border-radius: 20px;
     }
     
