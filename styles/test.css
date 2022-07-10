@@ -205,9 +205,6 @@ font-family: 'Open Sans';
     }
 }
 @media (max-width: 600px){
-    *{
-        padding-bottom: calc(1em + env(safe-area-inset-bottom));
-    }
     button{
         margin-top: 5%;
     }
@@ -221,6 +218,7 @@ font-family: 'Open Sans';
         margin-left: auto;
         margin-right: auto;
         margin-top: 50%;
+        padding-bottom: calc(1em + env(safe-area-inset-bottom));
         width: 80%;
         height: 80%;
         border-radius: 10px;
