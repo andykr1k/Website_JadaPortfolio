@@ -205,6 +205,9 @@ font-family: 'Open Sans';
     }
 }
 @media (max-width: 600px){
+    *{
+        padding-bottom: calc(1em + env(safe-area-inset-bottom));
+    }
     button{
         margin-top: 5%;
     }
