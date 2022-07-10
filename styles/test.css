@@ -31,7 +31,6 @@ height: 100vh;
 scroll-snap-align: center;
 }
 h1 {
-font-size: 2.5rem;
 color: #4F5165;
 font-family: 'Open Sans', sans-serif;
 }
@@ -52,6 +51,9 @@ color: #799496;
 font-family: 'Open Sans';
 }
 @media (min-width: 1100px) {
+    h1{
+        font-size: 2.5rem;
+    }
     iframe {
         width: 100%;
         max-width: 920px;
@@ -59,6 +61,9 @@ font-family: 'Open Sans';
         }
 }
 @media (max-width: 1100px) {
+    h1{
+        font-size: 2rem;
+    }
     iframe {
         width: 100%;
         max-width: 600px;
@@ -66,6 +71,9 @@ font-family: 'Open Sans';
         }
 }
 @media (max-width: 600px) {
+    h1{
+        font-size: 2rem;
+    }
     iframe {
         width: 100%;
         max-width: 400px;
